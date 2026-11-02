@@ -1,0 +1,2 @@
+var n="idp_oauth2_popup";var i="idp_oauth2_pending:";var t="idp-oauth2-popup-callback";function a(e){return e!==null&&e.startsWith("p.")}function d(){if(!window.opener)return!1;let e=new URLSearchParams(window.location.search),r={source:t,state:e.get("state"),code:e.get("code")??void 0,error:e.get("error")??void 0,error_description:e.get("error_description")??void 0};return window.opener.postMessage(r,window.location.origin),!0}export{n as a,i as b,t as c,a as d,d as e};
+//# sourceMappingURL=chunk-THUPO6F3.js.map
